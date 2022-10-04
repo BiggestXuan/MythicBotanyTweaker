@@ -1,6 +1,7 @@
 import mods.mythicbotany.CTRunePosition;
 
 //Use 3 coals and 10K mana craft a diamond.
+//This is just one example and may not work in the minecraft. Because multiple identical items will be stacked.
 <recipetype:mythicbotany:infusion>.addRecipe("test",<item:minecraft:diamond>,[<item:minecraft:coal>,<item:minecraft:coal>,<item:minecraft:coal>],10000,0xfffff,0x00000);
 
 //Remove terra ingot recipe in infusion.
