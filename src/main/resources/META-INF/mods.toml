@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="mythic_botany_tweaker"
+version="${file.jarVersion}"
+displayName="MythicBotany Tweaker"
+logoFile=""
+credits=""
+authors="Biggest_Xuan"
+description='''
+'''
+[[dependencies.mythic_botany_tweaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mythic_botany_tweaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mythic_botany_tweaker]]
+    modId="crafttweaker"
+    mandatory=true
+    versionRange="[9.1.100,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mythic_botany_tweaker]]
+    modId="mythicbotany"
+    mandatory=true
+    versionRange="[1.18.2-2.1.0,)"
+    ordering="NONE"
+    side="BOTH"
